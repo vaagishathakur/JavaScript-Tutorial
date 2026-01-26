@@ -42,3 +42,18 @@ let someNumber=33
 let stringNumber=String(someNumber)
 console.log(stringNumber);//33
 console.log(typeof(stringNumber));//gives string :) 
+
+//+++++++++++Operations+++++++++++++++
+
+let value =3
+let negValue=-3
+console.log(negValue);
+//operations 
+/*
+console.log(2+2);//plus
+console.log(2-2);//minus
+console.log(2*2);//multiplication
+console.log(2**2);//power
+console.log(2/3);//division
+console.log(2%8);//remainder
+*/
