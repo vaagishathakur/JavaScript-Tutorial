@@ -57,3 +57,45 @@ console.log(2**2);//power
 console.log(2/3);//division
 console.log(2%8);//remainder
 */
+
+let str1="hello"
+let str2=" Vaagisha"
+let str3=str1+str2
+console.log(str3);
+
+console.log("1"+2);//returns 12
+console.log(1+"2");//returns 12
+console.log("1"+2+3)//returns 123 this is a messy video
+//But........
+console.log(1+2+"3");//returns 33 (1+2)and then  string concatenation
+
+//if string is first then string conversion takes place
+//if 2 integes are first then integer operations takes place  
+
+
+console.log(true);//returns true
+//but
+console.log(+true);//now it returns 1(increment)  
+// console.log(true+); error
+console.log(+"");//returns 0 dirty conversion
+
+
+//comparisons converts null to a number (0) .
+// that is why null>=0 is true and null>0 is false
+
+console.log(null>0);//false
+console.log(null==0);//false
+console.log(null>=0);//true
+
+
+console.log(undefined>0);//false
+console.log(undefined==0);//false
+console.log(undefined>=0);//false
+//avoid these types of conversions write clean codes
+
+
+// ==, === ,>= ,>these conversion operators in Javascript works differenntly.
+
+//=== is for strict checking
+console.log(2=="2")//true
+console.log(2==="2")//false
