@@ -1,4 +1,4 @@
-// Primitive DataTypes (goes into Stack)
+// Primitive DataTypes (goes into Stack->we get a copy)
 
 // 7 types:
 // String, Number, Boolean, Null, Symbol, undefined, BigInt
@@ -8,7 +8,7 @@ const id = Symbol("123");
 
 /*******************************************************/
 
-// Non-primitive / Reference Data Types(goes into heap)
+// Non-primitive / Reference Data Types(goes into heap ->we get a reference)
 // Array, Objects, Functions
 
 const heroes = ["shaktiman", "SpiderMAN", "CaptainAmerica"]; // Array
